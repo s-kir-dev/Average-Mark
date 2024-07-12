@@ -1,6 +1,5 @@
 import UIKit
 
-// Используем структуру для хранения оценок и среднего балла
 struct Grades {
     var marks: [Int] = []
     var averageMark: Double = 0.0
@@ -115,7 +114,7 @@ class ViewController: UIViewController {
             if grades.averageMark >= 8 {
                 labelResult.text! += " Красавчик!😎🤝"
             } else {
-                labelResult.text! += " Неудовлетворительно!😡"
+                labelResult.text! += " Филонщик!😡"
             }
         }
     
@@ -132,6 +131,5 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 }
