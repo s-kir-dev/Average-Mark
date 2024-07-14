@@ -110,14 +110,6 @@ class ViewController: UIViewController {
             labelMarks.text!.removeLast(2)
         }
         printResult()
-        if !grades.marks.isEmpty {
-            if grades.averageMark >= 8 {
-                labelResult.text! += " Красавчик!😎🤝"
-            } else {
-                labelResult.text! += " Филонщик!😡"
-            }
-        }
-    
     }
     
     
